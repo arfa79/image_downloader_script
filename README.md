@@ -85,10 +85,10 @@ Run the script as per the Getting Started instructions.
 
 Adjust the configurations in script.py based on your requirements:
 
-Database connection details (CONFIG['db']).
-Google API key (CONFIG['google_api_key']).
-Image resize dimensions (CONFIG['image_resize_dimensions']).
-Output directory for resized images (CONFIG['output_resized_images']).
+    Database connection details (CONFIG['db']).
+    Google API key (CONFIG['google_api_key']).
+    Image resize dimensions (CONFIG['image_resize_dimensions']).
+    Output directory for resized images (CONFIG['output_resized_images']).
 
 ## Contributing
 
