@@ -1,6 +1,6 @@
 # Image Processing Script
 
-Create a versatile script capable of downloading images from Google search results based on a specified search query string, such as "cute kittens." Perform resizing tasks on the downloaded images and securely store them in a PostgreSQL database. This script offers flexibility by supporting multiple programming languages, including Node.js, Go, Java, .NET, and Python, allowing you to choose the language you're most comfortable with. When using the script, provide inputs for the search query, the maximum number of images to be fetched, and essential PostgreSQL database connection details. The script's design emphasizes asynchronous programming techniques to optimize efficiency, and it comes equipped with a suite of unit tests to ensure reliability and robustness. Additionally, consider Docker containers for convenient project encapsulation and deployment.
+This script is designed to download images from Google search results, perform resizing tasks, and store the processed images in a PostgreSQL database. It emphasizes asynchronous programming techniques for optimal efficiency.
 
 ---
 
@@ -21,7 +21,7 @@ Create a versatile script capable of downloading images from Google search resul
 
 ## Introduction
 
-This script is designed to download images from Google search results, perform resizing tasks, and store the processed images in a PostgreSQL database. It emphasizes asynchronous programming techniques for optimal efficiency.
+Create a versatile script capable of downloading images from Google search results based on a specified search query string, such as "cute kittens." Perform resizing tasks on the downloaded images and securely store them in a PostgreSQL database. This script offers flexibility by supporting multiple programming languages, including Node.js, Go, Java, .NET, and Python, allowing you to choose the language you're most comfortable with. When using the script, provide inputs for the search query, the maximum number of images to be fetched, and essential PostgreSQL database connection details. The script's design emphasizes asynchronous programming techniques to optimize efficiency, and it comes equipped with a suite of unit tests to ensure reliability and robustness. Additionally, consider Docker containers for convenient project encapsulation and deployment.
 
 ---
 
