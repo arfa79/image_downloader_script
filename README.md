@@ -64,7 +64,7 @@ Create a versatile script capable of downloading images from Google search resul
     ```bash
     python your_script.py
 
-## Docker
+### Docker
 
 1. ***Build the Docker image:***
 
