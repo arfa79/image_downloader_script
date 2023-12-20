@@ -78,17 +78,17 @@ Create a versatile script capable of downloading images from Google search resul
 
 ## Usage
 
-    Update the url_query_list in script.py with your desired image URLs and queries.
-    Run the script as per the Getting Started instructions.
+Update the url_query_list in script.py with your desired image URLs and queries.
+Run the script as per the Getting Started instructions.
 
 ## Configuration
 
 Adjust the configurations in script.py based on your requirements:
 
-    Database connection details (CONFIG['db']).
-    Google API key (CONFIG['google_api_key']).
-    Image resize dimensions (CONFIG['image_resize_dimensions']).
-    Output directory for resized images (CONFIG['output_resized_images']).
+Database connection details (CONFIG['db']).
+Google API key (CONFIG['google_api_key']).
+Image resize dimensions (CONFIG['image_resize_dimensions']).
+Output directory for resized images (CONFIG['output_resized_images']).
 
 ## Contributing
 
