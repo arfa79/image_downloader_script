@@ -1,5 +1,3 @@
-# image_processing_script.py
-
 import asyncio
 import logging
 import httpx
