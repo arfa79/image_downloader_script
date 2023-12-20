@@ -54,38 +54,34 @@ This script is designed to download images from Google search results, perform r
    git clone https://github.com/arfa79/image_processing_script.git
    cd image_processing_script
 
-install dependencies:
+2. **install dependencies:**
 
-bash
+    ```bash
+    pip install -r requirements.txt
 
-pip install -r requirements.txt
+3. ***Run the script:***
 
-Run the script:
-
-bash
-
+    ```bash
     python your_script.py
 
-Docker
+4. ***Docker:***
 
     Build the Docker image:
 
-    bash
+    ```bash
+    docker build -t image-processing-script .
 
-docker build -t image-processing-script .
+5. ***Run the Docker container:***
 
-Run the Docker container:
-
-bash
-
+    ```bash
     docker run -it --rm image-processing-script
 
-Usage
+##Usage
 
     Update the url_query_list in script.py with your desired image URLs and queries.
     Run the script as per the Getting Started instructions.
 
-Configuration
+##Configuration
 
 Adjust the configurations in script.py based on your requirements:
 
@@ -94,9 +90,10 @@ Adjust the configurations in script.py based on your requirements:
     Image resize dimensions (CONFIG['image_resize_dimensions']).
     Output directory for resized images (CONFIG['output_resized_images']).
 
-Contributing
+##Contributing
 
 If you would like to contribute to this project, please open an issue or submit a pull request.
-License
+
+##License
 
 This project is licensed under the GNU3 License.
