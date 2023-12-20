@@ -64,14 +64,14 @@ Create a versatile script capable of downloading images from Google search resul
     ```bash
     python your_script.py
 
-4. ***Docker:***
+## Docker
 
-    Build the Docker image:
+1. ***Build the Docker image:***
 
     ```bash
     docker build -t image-processing-script .
 
-5. ***Run the Docker container:***
+2. ***Run the Docker container:***
 
     ```bash
     docker run -it --rm image-processing-script
