@@ -76,12 +76,12 @@ This script is designed to download images from Google search results, perform r
     ```bash
     docker run -it --rm image-processing-script
 
-##Usage
+## Usage
 
     Update the url_query_list in script.py with your desired image URLs and queries.
     Run the script as per the Getting Started instructions.
 
-##Configuration
+## Configuration
 
 Adjust the configurations in script.py based on your requirements:
 
@@ -90,10 +90,10 @@ Adjust the configurations in script.py based on your requirements:
     Image resize dimensions (CONFIG['image_resize_dimensions']).
     Output directory for resized images (CONFIG['output_resized_images']).
 
-##Contributing
+## Contributing
 
 If you would like to contribute to this project, please open an issue or submit a pull request.
 
-##License
+## License
 
 This project is licensed under the GNU3 License.
