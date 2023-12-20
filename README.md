@@ -51,7 +51,7 @@ Create a versatile script capable of downloading images from Google search resul
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/arfa79/image_processing_script.git
+   git clone https://github.com/arfa79/image_downloader_script.git
    cd image_processing_script
 
 2. **install dependencies:**
@@ -69,12 +69,12 @@ Create a versatile script capable of downloading images from Google search resul
 1. ***Build the Docker image:***
 
     ```bash
-    docker build -t image-processing-script .
+    docker build -t image_downloader_script .
 
 2. ***Run the Docker container:***
 
     ```bash
-    docker run -it --rm image-processing-script
+    docker run -it --rm image_downloader_script
 
 ## Usage
 
